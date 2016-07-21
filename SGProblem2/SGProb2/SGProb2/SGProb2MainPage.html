@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="app">
+<head>
+    <title></title>
+    <script src="Scripts/angular.min.js"></script>
+    <script src="Scripts/Script.js"></script>
+    <link href="Styles.css" rel="stylesheet" />
+</head>
+<body ng-controller="SGProb2Ctrl">
+    <table>
+        <tr>
+            <td>
+                Player Id :
+                <input type="text" ng-model="playerId" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Coins Bet :
+                <input type="text" ng-model="coinsBet" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Credits Won :
+                <input type="text" ng-model="coinsWon" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Hash :
+                <input type="text" ng-model="hashValue" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Hash :
+                <input type="button" value="Submit" ng-click="processSubmit(playerId,coinsBet,coinsWon,hashValue)" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Result :
+                <textarea rows="4" cols="100" ng-model="responseString" />
+            </td>
+        </tr>
+   </table>
+
+</body>
+</html>

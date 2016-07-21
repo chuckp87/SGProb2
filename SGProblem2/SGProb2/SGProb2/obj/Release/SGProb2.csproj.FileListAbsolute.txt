@@ -1,0 +1,5 @@
+C:\CSharpCodeSamples\PracticeCode\SGProb2\SGProb2\bin\SGProb2.dll.config
+C:\CSharpCodeSamples\PracticeCode\SGProb2\SGProb2\bin\SGProb2.dll
+C:\CSharpCodeSamples\PracticeCode\SGProb2\SGProb2\bin\SGProb2.pdb
+C:\CSharpCodeSamples\PracticeCode\SGProb2\SGProb2\obj\Release\SGProb2.dll
+C:\CSharpCodeSamples\PracticeCode\SGProb2\SGProb2\obj\Release\SGProb2.pdb
